@@ -1,0 +1,309 @@
+{
+    "C1":{
+        "Title": "O Quarto Sombrio",
+        "Autor": "Herbert Vieira",
+        "D0": {
+            "txtDec": "Você acorda aprisionado em um quarto estranho e as primeiras coisas que você vê são uma porta e uma vassoura, você acredita que alguma delas pode te ajudar a entender onde está ou como sair deste lugar. Qual deles você investiga primeiro?",
+            "op1": "Porta",
+            "op2": "Vassoura"
+        },
+        "D1": {
+            "txtDec": "A porta está trancada, porém ao se levantar você percebe que existe algo embaixo da cama onde dormia então, sendo assim suas opções são investigar a cama ou a vassoura, qual a sua escolha?",
+            "op1": "Cama",
+            "op2": "Vassoura"
+        },
+			"D1_1": {
+				"txtDec": "Embaixo da cama existe um baú trancado com um grande cadeado e você nada pode fazer agora,porém vê um machado do outro lado do quarto que talvez lhe ajude. Deseja investigar o machado ou a vassoura ?",
+				"op1": "Machado",
+				"op2": "Vassoura"
+			},
+				"D1_1_1": {
+					"txtDec": "Antes que você consiga se aproximar do machado ÁLGUÉM sai de trás da cortina, o pega e ameaça te atacar caso se aproxime você tem duas opções neste momento confrontá-lo ou tentar apaziguar a situação.",
+					"op1": "Confrontar",
+					"op2": "Apaziguar"
+				},
+					"D1_1_1_1": {
+						"txtDec": "Você não percebe nenhuma expressão no rosto do possível agressor e pode atacá-lo de modo que o desarme ou atacar de maneira ofensiva",
+						"op1": "Atacar",
+						"op2": "Desarmar"
+					},
+						"D1_1_1_1_1": {
+							"txtDec": "Ao atacá-lo o mesmo revida com um canivete e te ataca brutalmente. voce está morto.",
+							"op1": "-",
+							"op2": "-"
+						},
+						"D1_1_1_1_2": {
+							"txtDec": "ao tentar desarmar você sem querer deixa o machado cair com uma devida força na perna do agressor que cai no chão voce então pode tentar´atacá-lo aproveitando de suavulnerabilidade ou apaziguar a situação.",
+							"op1": "Atacar",
+							"op2": "Apaziguar"
+						},
+							"D1_1_1_1_2_1": {
+								"txtDec": "Ao atacá-lo o mesmo revida com um canivete e te ataca brutalmente. voce está morto.",
+								"op1": "-",
+								"op2": "-"
+							},
+							"D1_1_1_1_2_2": {
+								"txtDec": "Você diz que não quer machucá-lo e os estranho acredita mas permanece com o machado em mãos. o machado poderia ser útil para abrir o baú ou a porta mas não está disponível agora. neste momento você pode investigar a vassoura ou a cortina de onde ele saiu.",
+								"op1": "Vassoura",
+								"op2": "Cortina"
+							},
+									"D1_1_1_1_2_2_1":{
+										"txtDec": "Analisando a vassoura voce nota um design diferente cheio de símbolos, dentre eles uma seta que aponta para a cortina e pensa que deve significar algo, deseja investigar a cortina ou investigar mais detalhes nos símbolos da vassoura",
+										"op1": "Cortina",
+										"op2": "Detalhes da vassoura"
+									},
+										"D1_1_1_1_2_2_1_1":{
+											"txtDec": "Analisando a região próxima da cortina voce não encontra nada, porém o agressor joga o machado no chão perto de ti voce o pega e pensa em tentar quebrar a porta, mas se lembra do baú em baixo da cama onde estava deitado. voce tenta quebrar o baú ou  quebrar a porta?",
+											"op1": "Quebrar baú",
+											"op2": "Quebrar porta"
+										},
+											"D1_1_1_1_2_2_1_1_1":{
+												"txtDec": "Você quebra o baú e encontra uma chave lá dentro que deve ser a chave da porta, finalmente voce pode sair do quarto, voce então destranca o quarto e pode decidir se o tranca de volta com o estranho homem lá dentro ou se liberta o sujeito junto a voce para que possa ajudar a fugir de vez deste local.",
+												"op1": "Trancar",
+												"op2": "Libertar"
+											},
+												"D1_1_1_1_2_2_1_1_1_1":{
+													"txtDec": "Voce optou por deixálo preso lá, porém se viu diante de um enorme corredor, torça para que sua atitude não lhe traga consequencias cruéis em sua próxima jornada FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+													"op1": "-",
+													"op2": "-"
+												},
+												"D1_1_1_1_2_2_1_1_1_2":{
+													"txtDec": "Mesmo com seu comportamento agressivo você acredita que é melhor libertá-lo e que pode torná-lo uma ajuda, principalmente agora  que sente que um grande perigo ainda lhe aguarda FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+													"op1": "-",
+													"op2": "-"
+												},
+												
+											"D1_1_1_1_2_2_1_1_2":{
+												"txtDec": "Você foi ansioso ao tentar quebrar a porta que aparentemente era de madeira, porém a mesma tinha uma chapa de aço que não só impediu a destruição da porta como soltou a cabeça do machado de seu cabo. neste momento o estranho chegou silenciosamente e te matou.",
+												"op1": "-",
+												"op2": "-"
+											},
+										
+										"D1_1_1_1_2_2_1_2":{
+											"txtDec": "Ao analisar os detalhes você começa a identificar um padrão nos símbolos, mas enquanto estava entretido com os símbolos o agressor te ataca brutalmente. Voce está morto!",
+											"op1": "-",
+											"op2": "-"
+										},
+									
+									
+									"D1_1_1_1_2_2_2":{
+										"txtDec": "Analisando a região próxima da cortina voce não encontra nada, porém o agressor joga o machado no chão perto de ti voce o pega e pensa em tentar quebrar a porta, mas se lembra do baú em baixo da cama onde estava deitado. voce tenta quebrar o baú ou  quebrar a porta?",
+										"op1": "Quebrar baú",
+										"op2": "Quebrar porta"
+									},
+										"D1_1_1_1_2_2_2_1":{
+											"txtDec": "Você quebra o baú e encontra uma chave lá dentro que deve ser a chave da porta, finalmente voce pode sair do quarto, voce então destranca o quarto e pode decidir se o tranca de volta com o estranho homem lá dentro ou se liberta o sujeito junto a voce para que possa ajudar a fugir de vez deste local.",
+											"op1": "Trancar",
+											"op2": "Libertar"
+										},
+											"D1_1_1_1_2_2_2_1_1":{
+												"txtDec": "Voce optou por deixálo preso lá, porém se viu diante de um enorme corredor, torça para que sua atitude não lhe traga consequencias cruéis em sua próxima jornada FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+												"op1": "-",
+												"op2": "-"
+											},
+											"D1_1_1_1_2_2_2_1_2":{
+												"txtDec": "Mesmo com seu comportamento agressivo você acredita que é melhor libertá-lo e que pode torná-lo uma ajuda, principalmente agora  que sente que um grande perigo ainda lhe aguarda FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+												"op1": "-",
+												"op2": "-"
+											},
+										"D1_1_1_1_2_2_2_2":{
+											"txtDec": "Você foi ansioso ao tentar quebrar a porta que aparentemente era de madeira, porém a mesma tinha uma chapa de aço que não só impediu a destruição da porta como soltou a cabeça do machado de seu cabo. neste momento o estranho chegou silenciosamente e te matou.",
+											"op1": "-",
+											"op2": "-"
+										},			
+					"D1_1_1_2": {
+						"txtDec": "Você diz que não quer machucá-lo e os estranho acredita mas permanece com o machado em mãos. o machado poderia ser útil para abrir o baú ou a porta mas não está disponível agora. neste momento você pode investigar a vassoura ou a cortina de onde ele saiu.",
+						"op1": "Vassoura",
+						"op2": "Cortina"
+					},
+						"D1_1_1_2_1": {
+							"txtDec": "Analisando a vassoura voce nota um design diferente cheio de símbolos, dentre eles uma seta que aponta para a cortina e pensa que deve significar algo, deseja investigar a cortina ou investigar mais detalhes nos símbolos da vassoura",
+							"op1": "Cortina",
+							"op2": "Detalhes da vassoura"
+						},
+							"D1_1_1_2_1_1": {
+								"txtDec": "Analisando a região próxima da cortina voce não encontra nada, porém o agressor joga o machado no chão perto de ti voce o pega e pensa em tentar quebrar a porta, mas se lembra do baú em baixo da cama onde estava deitado. voce tenta quebrar o baú ou  quebrar a porta?",
+								"op1": "Quebrar baú",
+								"op2": "Quebrar porta"
+							},
+								"D1_1_1_2_1_1_1": {
+									"txtDec": "Você quebra o baú e encontra uma chave lá dentro que deve ser a chave da porta, finalmente voce pode sair do quarto, voce então destranca o quarto e pode decidir se o tranca de volta com o estranho homem lá dentro ou se liberta o sujeito junto a voce para que possa ajudar a fugir de vez deste local.",
+									"op1": "Trancar",
+									"op2": "Libertar"
+								},
+									"D1_1_1_2_1_1_1_1": {
+										"txtDec": "Voce optou por deixálo preso lá, porém se viu diante de um enorme corredor, torça para que sua atitude não lhe traga consequencias cruéis em sua próxima jornada FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+										"op1": "-",
+										"op2": "-"
+									},
+									"D1_1_1_2_1_1_1_2": {
+										"txtDec": "Mesmo com seu comportamento agressivo você acredita que é melhor libertá-lo e que pode torná-lo uma ajuda, principalmente agora  que sente que um grande perigo ainda lhe aguarda FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+										"op1": "-",
+										"op2": "-"
+									},
+								"D1_1_1_2_1_1_2": {
+									"txtDec": "Você foi ansioso ao tentar quebrar a porta que aparentemente era de madeira, porém a mesma tinha uma chapa de aço que não só impediu a destruição da porta como soltou a cabeça do machado de seu cabo. neste momento o estranho chegou silenciosamente e te matou.",
+									"op1": "-",
+									"op2": "-"
+								},
+								
+								
+							"D1_1_1_2_1_2": {
+								"txtDec": "Ao analisar os detalhes você começa a identificar um padrão nos símbolos, mas enquanto estava entretido com os símbolos o agressor te ataca brutalmente. Voce está morto!",
+								"op1": "-",
+								"op2": "-"
+							},
+						
+						
+						"D1_1_1_2_2": {
+							"txtDec": "Analisando a região próxima da cortina voce não encontra nada, porém o agressor joga o machado no chão perto de ti voce o pega e pensa em tentar quebrar a porta, mas se lembra do baú em baixo da cama onde estava deitado. voce tenta quebrar o baú ou  quebrar a porta?",
+							"op1": "Quebrar baú",
+							"op2": "Quebrar porta"
+						},
+							"D1_1_1_2_2_1": {
+								"txtDec": "Você quebra o baú e encontra uma chave lá dentro que deve ser a chave da porta, finalmente voce pode sair do quarto, voce então destranca o quarto e pode decidir se o tranca de volta com o estranho homem lá dentro ou se liberta o sujeito junto a voce para que possa ajudar a fugir de vez deste local.",
+								"op1": "Trancar",
+								"op2": "Libertar"
+							},
+								"D1_1_1_2_2_1_1": { 
+									"txtDec": "Voce optou por deixálo preso lá, porém se viu diante de um enorme corredor, torça para que sua atitude não lhe traga consequencias cruéis em sua próxima jornada FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+									"op1": "-",
+									"op2": "-"
+								},
+								"D1_1_1_2_2_1_2": { 
+									"txtDec": "Mesmo com seu comportamento agressivo você acredita que é melhor libertá-lo e que pode torná-lo uma ajuda, principalmente agora  que sente que um grande perigo ainda lhe aguarda FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+									"op1": "-",
+									"op2": "-"
+								},
+							
+							"D1_1_1_2_2_2": {
+								"txtDec": "Você foi ansioso ao tentar quebrar a porta que aparentemente era de madeira, porém a mesma tinha uma chapa de aço que não só impediu a destruição da porta como soltou a cabeça do machado de seu cabo. neste momento o estranho chegou silenciosamente e te matou.",
+								"op1": "-",
+								"op2": "-"
+							},
+
+				"D1_1_2": {
+					"txtDec": "Analisando a vassoura você nota um design diferente cheio de símbolos, dentre eles uma seta que aponta para uma cortina e pensa que isto deve significar algo, desse modo deseja investigar a cortina ou procurar mais pistas nos simbolos da vassoura?",
+					"op1": "Cortina",
+					"op2": "Detalhes da Vassoura"
+				},
+
+			"D1_2": {
+				"txtDec": "Analisando a vassoura você nota um design diferente cheio de símbolos, dentre eles uma seta que aponta para uma cortina e pensa que isto deve significar algo, desse modo deseja investigar a cortina ou procurar mais pistas nos simbolos da vassoura?",
+				"op1": "Cortina",
+				"op2": "Detalhes da Vassoura"
+			},
+				"D1_2_1": {
+					"txtDec": "Ao olhar a cortina você vê alguém estranho segurando um canivete prestes a te atacar, diante da possível ameaça você pode contra-atacar na esperança de desarmá-lo e imobilizá-lo ou pode tentar convencê-lo de que não quer um confronto, apaziguando assim a situação.",
+					"op1": "Atacar",
+					"op2": "Apaziguar"
+				},
+					"D1_2_1_1": {
+						"txtDec": "Ao atacá-lo o mesmo revida com um canivete e te ataca brutalmente. você está morto",
+						"op1": "-",
+						"op2": "-"
+					},
+					
+					"D1_2_1_2": { 
+						"txtDec": "Ele acredita em voce e aponta em direção á um machado, voce o pega e pensa em tentar quebrar a porta, mas também ve algo escondido em baixo da cama onde estava deitado. voce investiga a cama ou tenta quebrar a porta?",
+						"op1": "Investigar Cama",
+						"op2": "Quebrar Porta"
+					},
+						"D1_2_1_2_1": { 
+							"txtDec": "Você avista um pequeno baú e ao sacudi-lo ouviu um barulho como se houvesse algo dentro voce o quebra com o machado ou desiste e tenta quebrar a porta ?",
+							"op1": "Baú",
+							"op2": "Porta"
+						},
+							"D1_2_1_2_1_1": { 
+								"txtDec": "Você quebra o baú e encontra uma chave lá dentro que deve ser a chave da porta, finalmente voce pode sair do quarto, voce então destranca o quarto e pode decidir se o tranca de volta com o estranho homem lá dentro ou se liberta o sujeito junto a voce para que possa ajudar a fugir de vez deste local.",
+								"op1": "Trancar",
+								"op2": "Libertar"
+							},
+								"D1_2_1_2_1_1_1": { 
+									"txtDec": "Voce optou por deixálo preso lá, porém se viu diante de um enorme corredor, torça para que sua atitude não lhe traga consequencias cruéis em sua próxima jornada FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+									"op1": "-",
+									"op2": "-"
+								},
+								"D1_2_1_2_1_1_2": { 
+									"txtDec": "Mesmo com seu comportamento agressivo você acredita que é melhor libertá-lo e que pode torná-lo uma ajuda, principalmente agora  que sente que um grande perigo ainda lhe aguarda FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+									"op1": "-",
+									"op2": "-"
+								},
+									
+							"D1_2_1_2_1_2": { 
+								"txtDec": "Você foi ansioso ao tentar quebrar a porta que aparentemente era de madeira, porém a mesma tinha uma chapa de aço que não só impediu a destruição da porta como soltou a cabeça do machado de seu cabo. neste momento o estranho chegou silenciosamente e te matou.",
+								"op1": "-",
+								"op2": "-"
+							},
+						"D1_2_1_2_2": { 
+							"txtDec": "Você foi ansioso ao tentar quebrar a porta que aparentemente era de madeira, porém a mesma tinha uma chapa de aço que não só impediu a destruição da porta como soltou a cabeça do machado de seu cabo. neste momento o estranho chegou silenciosamente e te matou.",
+							"op1": "-",
+							"op2": "-"
+						},
+				
+				"D1_2_2": {
+					"txtDec": "Ao analisar os detalhes você começa a identificar um padrão nos símbolos, mas enquanto estava entretido com os símbolos um agressor sai de trás da cortina e te ataca brutalmente. Você está morto!",
+					"op1": "-",
+					"op2": "-"
+				},
+
+		"D2": {
+			"txtDec": "Analisando a vassoura você nota um design diferente cheio de símbolos, dentre eles uma seta que aponta para uma cortina e pensa que isto deve significar algo, desse modo deseja investigar a cortina ou procurar mais pistas nos simbolos da vassoura?",
+			"op1": "Cortina",
+			"op2": "Detalhes da Vassoura"
+		},
+			"D2_1": { 
+				"txtDec": "Ao olhar a cortina você vê alguém estranho segurando um canivete prestes a te atacar, diante da possível ameaça você pode contra-atacar na esperança de desarmá-lo e imobilizá-lo ou pode tentar convencê-lo de que não quer um confronto, apaziguando assim a situação.",
+				"op1": "Atacar",
+				"op2": "Apaziguar"
+			},
+				"D2_1_1": { 
+					"txtDec": "Ao atacá-lo o mesmo revida com um canivete e te ataca brutalmente. você está morto",
+					"op1": "-",
+					"op2": "-"
+				},
+				"D2_1_2": { 
+					"txtDec": "Ele acredita em voce e aponta em direção á um machado, voce o pega e pensa em tentar quebrar a porta, mas também ve algo escondido em baixo da cama onde estava deitado. voce investiga a cama ou tenta quebrar a porta?",
+					"op1": "Investigar Cama",
+					"op2": "Quebrar Porta"
+				},
+					"D2_1_2_1": { 
+						"txtDec": "Você avista um pequeno baú e ao sacudi-lo ouviu um barulho como se houvesse algo dentro voce o quebra com o machado ou desiste e tenta quebrar a porta ?",
+						"op1": "Baú",
+						"op2": "Porta"
+					},
+						"D2_1_2_1_1": { 
+							"txtDec": "Você quebra o baú e encontra uma chave lá dentro que deve ser a chave da porta, finalmente voce pode sair do quarto, voce então destranca o quarto e pode decidir se o tranca de volta com o estranho homem lá dentro ou se liberta o sujeito junto a voce para que possa ajudar a fugir de vez deste local.",
+							"op1": "Trancar",
+							"op2": "Libertar"
+						},
+							"D2_1_2_1_1_1": { 
+								"txtDec": "Voce optou por deixálo preso lá, porém se viu diante de um enorme corredor, torça para que sua atitude não lhe traga consequencias cruéis em sua próxima jornada FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+								"op1": "-",
+								"op2": "-"
+							},
+							"D2_1_2_1_1_2": { 
+								"txtDec": "Mesmo com seu comportamento agressivo você acredita que é melhor libertá-lo e que pode torná-lo uma ajuda, principalmente agora  que sente que um grande perigo ainda lhe aguarda FIM -- CONTINUA NA PRÓXIMA TEMPORADA",
+								"op1": "-",
+								"op2": "-"
+							},
+								
+						"D2_1_2_1_2": { 
+							"txtDec": "Você foi ansioso ao tentar quebrar a porta que aparentemente era de madeira, porém a mesma tinha uma chapa de aço que não só impediu a destruição da porta como soltou a cabeça do machado de seu cabo. neste momento o estranho chegou silenciosamente e te matou.",
+							"op1": "-",
+							"op2": "-"
+						},
+					"D2_1_2_2": { 
+						"txtDec": "Você foi ansioso ao tentar quebrar a porta que aparentemente era de madeira, porém a mesma tinha uma chapa de aço que não só impediu a destruição da porta como soltou a cabeça do machado de seu cabo. neste momento o estranho chegou silenciosamente e te matou.",
+						"op1": "-",
+						"op2": "-"
+					},
+
+			"D2_2": {
+				"txtDec": "Ao analisar os detalhes você começa a identificar um padrão nos símbolos, mas enquanto estava entretido com os símbolos um agressor sai de trás da cortina e te ataca brutalmente. Você está morto!",
+				"op1": "-",
+				"op2": "-"
+			}
+    }
+}
+

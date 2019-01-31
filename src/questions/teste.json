@@ -1,0 +1,5 @@
+[
+    { "user": "a",  "age": 36, "active": true },
+    { "user": "b",  "age": 36, "active": true },
+    { "user": "c" , "age": 36, "active": true }
+]
