@@ -1,2 +1,2 @@
 # Text Based Game 
-A Text Based Game in React Native
+Protótipo de um jogo baseado em texto desenvolvido com React Native.
